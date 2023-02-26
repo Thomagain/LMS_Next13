@@ -3,7 +3,7 @@ import React from "react";
 
 type Props = {};
 
-function page({}: Props) {
+function landingpage({}: Props) {
   return (
     <div className="w-full h-full bg-red-400">
       <div className="flex items-center justify-center w-full text-6xl font-bold text-center bg-green-400 h-72">
@@ -132,4 +132,4 @@ function page({}: Props) {
   );
 }
 
-export default page;
+export default landingpage;

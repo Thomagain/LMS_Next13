@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-const page = () => {
+const navbar = () => {
   return (
     <header className="flex items-center justify-between w-full h-32 px-4 bg-[#3A3C43]">
       <div className="flex ">
@@ -23,4 +23,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default navbar;

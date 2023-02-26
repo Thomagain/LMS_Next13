@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons";
 
 type Props = {};
 
-function page({}: Props) {
+function footer({}: Props) {
   return (
     <div className="w-full px-10 bg-[#3A3C43]">
       <div className="flex items-center justify-center py-8">
@@ -68,4 +68,4 @@ function page({}: Props) {
   );
 }
 
-export default page;
+export default  footer;
