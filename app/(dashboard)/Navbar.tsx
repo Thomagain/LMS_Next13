@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 
 const navbar = () => {
@@ -17,7 +18,7 @@ const navbar = () => {
       </div>
 
       <div className="px-4 py-2 font-semibold text-black bg-white rounded-full">
-        Log In
+        <Link href="/login">Log in</Link>
       </div>
     </header>
   );
