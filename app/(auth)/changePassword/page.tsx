@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React from "react";
 
 function page() {
@@ -10,14 +9,14 @@ function page() {
             <img className="w-28 h-28" src="image/icon.png" alt="Icon" />
           </div>
           <div className="pb-5 text-xl font-semibold text-center">
-            LOG IN TO YOUR ACCOUNT
+            Change Password
           </div>
-          <div className="pb-10">
+          <div className="pb-5">
             <input
               className="w-full py-2 leading-tight border-b-2 border-gray-400 appearance-none focus:outline-none"
               type="text"
-              name="Student Number"
-              placeholder="Student Number"
+              name="currentpassword"
+              placeholder="Current Password"
             />
           </div>
           <div className="pb-5">
@@ -25,23 +24,21 @@ function page() {
               className="w-full py-2 leading-tight border-b-2 border-gray-400 appearance-none focus:outline-none"
               type="text"
               name="Student Number"
-              placeholder="Password"
+              placeholder="New Password"
             />
           </div>
-          <div className="flex flex-row justify-between pb-5 text-sm font-semibold">
-            <div>
-              <Link href="/forgotPassword">Forgot Password?</Link>
-            </div>
-            <div>
-              <button>Remember me</button>
-            </div>
+          <div className="pb-10">
+            <input
+              className="w-full py-2 leading-tight border-b-2 border-gray-400 appearance-none focus:outline-none"
+              type="text"
+              name="Student Number"
+              placeholder="Confirm Password"
+            />
           </div>
-          <div className="flex justify-center p-1 text-md text-white bg-[#3A3C43] rounded-3xl ">
-            <button>Login</button>
-          </div>
-          <div className="pt-5 pb-5 text-sm">
-            Don't have an account?
-            <Link href="/register">Register here</Link>
+          <div className="pb-10">
+            <div className="flex justify-center p-1 text-md text-white bg-[#3A3C43] rounded-3xl ">
+              <button>Change Password</button>
+            </div>
           </div>
         </div>
       </div>
