@@ -18,7 +18,7 @@ import { FiActivity } from "react-icons/fi";
 
 type Props = {};
 
-function sidenav({}: Props) {
+function page({}: Props) {
   return (
     <div className="grid items-center justify-around h-full grid-flow-row grid-cols-1 gap-2 px-4 py-6 text-center bg-white w-72">
       <p className="text-2xl font-extrabold text-black">NAVIGATION</p>
@@ -78,4 +78,4 @@ function sidenav({}: Props) {
   );
 }
 
-export default sidenav;
+export default page;
