@@ -7,7 +7,9 @@ function page() {
       <div className="flex justify-center bg-white shadow-xl rounded-3xl w-80 ">
         <div className="flex flex-col w-64 h-full">
           <div className="flex justify-center pt-8 pb-5">
-            <img className="w-28 h-28" src="image/icon.png" alt="Icon" />
+           <Link href="/"> 
+           <img className="w-28 h-28" src="image/icon.png" alt="Icon" />
+           </Link> 
           </div>
           <div className="pb-5 text-xl font-semibold text-center">
             LOG IN TO YOUR ACCOUNT
@@ -41,7 +43,7 @@ function page() {
           </div>
           <div className="pt-5 pb-5 text-sm">
             Don't have an account?
-            <Link href="/register">Register here</Link>
+            <Link href="/register" className="font-bold">Register here</Link>
           </div>
         </div>
       </div>

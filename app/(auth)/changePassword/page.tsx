@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function page() {
@@ -6,8 +7,9 @@ function page() {
       <div className="flex justify-center bg-white shadow-xl rounded-3xl w-80 ">
         <div className="flex flex-col w-64 h-full">
           <div className="flex justify-center pt-8 pb-5">
-            <img className="w-28 h-28" src="image/icon.png" alt="Icon" />
-          </div>
+            <Link href="/">
+              <img className="w-28 h-28" src="image/icon.png" alt="Icon" />
+            </Link>           </div>
           <div className="pb-5 text-xl font-semibold text-center">
             Change Password
           </div>
