@@ -1,4 +1,3 @@
-
 import React from "react";
 
 type Props = {};
@@ -13,11 +12,11 @@ function page({}: Props) {
         className="w-full h-full px-20 py-8 text-center bg-[#F8F306]
 "
       >
-        <p className="pt-5 text-4xl font-bold text-[#3A3C43]">
+        <p className="pt-5 text-3xl font-bold text-[#3A3C43]">
           Upcoming Events
         </p>
         <div className="grid items-center justify-center grid-cols-2 gap-6 py-6">
-          <div className="flex flex-col items-center justify-center w-full h-56 bg-[#B8C0CC] rounded-3xl">
+          <div className="flex flex-col items-center justify-center w-full h-40 bg-[#B8C0CC] rounded-3xl">
             <p className="text-xl font-medium text-[#3A3C43]">
               Faculty Orientation
             </p>
@@ -28,14 +27,14 @@ function page({}: Props) {
               August 12, 2023
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center w-full h-56 bg-[#4B5768] rounded-3xl">
+          <div className="flex flex-col items-center justify-center w-full h-40 bg-[#4B5768] rounded-3xl text-white">
             {" "}
             <p className="text-xl font-medium">Faculty Orientation</p>
             <p className="text-xl font-medium">using TBL - Hub</p>
             <p className="mt-2 text-4xl font-semibold">August 12, 2023</p>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center w-full h-56 bg-[#B8C0CC] rounded-3xl">
+        <div className="flex flex-col items-center justify-center w-full h-40 bg-[#B8C0CC] rounded-3xl">
           {" "}
           <p className="text-[#3A3C43] text-xl font-medium">
             First Day of Classes for the First

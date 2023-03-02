@@ -5,13 +5,14 @@ type Props = {};
 
 function page({}: Props) {
   return (
-    <div className="bg-green-400 w0full h-scren bg-gradient-to-r from-gray-200 via-gray-200 to-[#FFFFFF]">
+    <div className="bg-green-400 w-full h-scren bg-gradient-to-r from-gray-200 via-gray-200 to-[#FFFFFF]">
       <div className="flex items-center justify-between w-full h-12 px-4 ">
         <p className="text-xl font-bold text-black">My Courses</p>
         <p className="text-xl font-bold text-black">February 09, 2023</p>
       </div>
       <div className="flex items-center justify-between w-full h-12 px-4 ">
         <p className="text-xl font-bold text-black">Courses</p>
+        {/* Use Reusable button */}
         <button className="rounded-full px-4 bg-[#3A3C43] font-bold">
           All Courses
         </button>
