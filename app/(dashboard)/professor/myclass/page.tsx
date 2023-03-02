@@ -1,9 +1,9 @@
 import React from 'react'
 
-function page() {
+function myclass() {
   return (
-    <div>page</div>
+    <div>myclass page</div>
   )
 }
 
-export default page
+export default myclass
